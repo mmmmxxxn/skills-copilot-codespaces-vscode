@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<meta property="og:title" content="Железнодорожная видеофотогалерея">
+<meta property="og:type" content="image.photo">
+<meta name="description" content="Железнодорожная видеофотогалерея">
+<meta name="keywords" content="видеофотогалерея, поезда, локомотивы, путевая техника, подвижной состав, фотографии, фотографии поездов, train, photo, railway, railroad, поезд, депо, железная, дорога, железнодорожный, electric, train, пассажирский, вагонное, станция, экспресс, электричка, электропоезд, locomotive, diesel, локомотив, тепловоз, локомотивное, вагон, пригородный, путевой, дрезина, мотриса, паровоз, электровоз, ЭР, ЭД, памятник, фирменный, скорый, состав, купе, плацкарт, Russia, USSR, photograph, picture, news, железная дорога, карта, схема, расписание, фотография, новости, дизель, М-62, 2ТЭ-10, ЧМЭ3, ТЭМ-2, collection, скачать, Train Lights, Night Train, Train Sounds, путевая техника, подвижной состав, train photo, электропоезда, электричка">
+<meta name="theme-color" content="#4f548c">
+<meta name="viewport" content="width=1000,user-scalable=yes">
+<title>TrainFoto — Железнодорожная фотогалерея</title>
+<link rel="alternate" hreflang="x-default" href="https://trainfoto.ru/">
+<link rel="alternate" hreflang="ru" href="https://trainfoto.ru/?lang=ru">
+<link rel="alternate" hreflang="en" href="https://trainfoto.ru/?lang=en">
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+<link rel="icon" type="image/ico" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&amp;family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/fontawesome/css/all.min.css?1649451507">
+<link rel="stylesheet" href="/css/style.css?1741183923">
+<link rel="stylesheet" href="/css/desktop.css?1704281102">
+<link rel="stylesheet" href="/css/dark.css?1738236499">
+<script src="/js/jquery.js?1675316994"></script>
+<script src="/js/core.js?1707424189"></script>
+<script src="/js/jquery-ui.js?1648837659"></script>
+<script src="/js/selector.js?1730197691"></script>
+<script src="/index.js?1675795757"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(88216032, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/88216032" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script>
+addTexts({
+	'IX_ANY': 'Дорога приписки — любая',
+	'IX_WAIT': 'Идёт поиск...',
+	'NUMSIGN': '№',
+	'SHORT_C': 'Дорога',
+	'SHORT_D': 'Депо',
+	'IX_NOTHING': 'Ничего не найдено',
+	'IX_LOGGING': 'Вход...',
+	'IX_LOADMORE': 'Загрузить ещё',
+	'IX_NEWRAND': 'Показать другие'
+});
+</script>
+
+</head>
+
+<body>
+<div id="backgr"></div>
+<table class="tmain">
+<tr><td>
+<div id="title"><div id="title2"><img src="/img/logo_big.png">TrainFoto</div></div></td></tr>
+<tr><td class="mm-bar">
+<ul class="mm mm-level-1"><li><a href="#" onclick="return false" class="mm-item"><span class="mm-label">База подвижного состава</span></a><div><ul class="mm-level-2"><li><a href="/models/" class="mm-item"><span class="mm-label">Список серий и моделей</span></a></li><li><a href="/#countries" class="mm-item"><span class="mm-label">Страны и железные дороги</span></a></li><li><a href="/update_v.php" class="mm-item"><span class="mm-label">Изменения в базе данных</span></a></li></ul></div></li><li><a href="#" onclick="return false" class="mm-item"><span class="mm-label">Дополнительно</span></a><div><ul class="mm-level-2"><li><a href="/voting.php" class="mm-item"><span class="mm-label">Фотоконкурс</span></a></li><li><a href="/articles.php" class="mm-item"><span class="mm-label">Разные фотогалереи</span></a></li><li><a href="/map.php" class="mm-item"><span class="mm-label">Фотографии на карте</span></a></li><li><a href="/live.php" class="mm-item"><span class="mm-label">Прямой эфир</span></a></li><li><a href="/replace_photo.php" class="mm-item"><span class="mm-label">Заменённые фото</span></a></li><li><a href="/links.php" class="mm-item"><span class="mm-label">Ссылки</span></a></li></ul></div></li><li><a href="#" onclick="return false" class="mm-item"><span class="mm-label">Комментарии</span><span class="mm-notify notify-count">6</span></a><div><ul class="mm-level-2"><li><a href="/comments.php" class="mm-item"><span class="mm-label">Все комментарии</span></a></li><li><a href="/comments.php?filter=new&amp;reply=1" class="mm-item"><span class="mm-label">Ответы в подписках</span><span class="mm-notify notify-count">6</span></a></li><li><a href="/comments.php?filter=new" class="mm-item"><span class="mm-label">Новые комментарии</span></a></li><li><a href="/comments.php?w-aid=547" class="mm-item"><span class="mm-label">Написанные мной</span></a></li><li><a href="/comments.php?p-aid=547" class="mm-item"><span class="mm-label">К моим фотографиям</span></a></li></ul></div></li><li><a href="#" onclick="return false" class="mm-item"><span class="mm-label">Обновления</span><span class="mm-notify notify-count">63</span></a><div><ul class="mm-level-2"><li><a href="/update.php?time=24" class="mm-item"><span class="mm-label">Новые фотографии</span></a></li><li><a href="/feed.php" class="mm-item"><span class="mm-label">Лента обновлений</span></a></li><li><a href="/fav_places.php" class="mm-item"><span class="mm-label">Фотографии из избранных мест</span></a></li><li><a href="/fav_authors.php" class="mm-item"><span class="mm-label">Фотографии избранных авторов</span><span class="mm-notify notify-count">63</span></a></li><li><a href="/update.php" class="mm-item"><span class="mm-label">Архив обновлений по датам</span></a></li></ul></div></li><li><a href="#" onclick="return false" class="mm-item"><span class="mm-label">Справка</span></a><div><ul class="mm-level-2"><li><a href="/rules/" class="mm-item"><span class="mm-label">Правила сайта</span></a></li></ul></div></li><li><a href="/feedback.php" class="mm-item"><span class="mm-label">Обратная связь</span></a></li><li><a href="/search.php" class="mm-item"><span class="mm-label">Поиск</span></a><div><ul class="mm-level-2"><li><a href="/search.php" class="mm-item"><span class="mm-label">Поиск фотографий</span></a></li><li><a href="/vsearch.php" class="mm-item"><span class="mm-label">Поиск подвижного состава</span></a></li><li><a href="/csearch.php" class="mm-item"><span class="mm-label">Поиск комментариев</span></a></li><li><a href="/authors.php" class="mm-item"><span class="mm-label">Поиск авторов</span></a></li></ul></div></li><li class="mm-pad-right mm-wide"><a href="/author/547/" class="mm-item"><span class="mm-icon"><i class="fas fa-xs fa-user"></i></span><span class="mm-label">Railway</span></a><div><ul class="mm-level-2"><li><a href="/lk/" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-info-circle"></i></span><span class="mm-label">Общая информация</span></a></li><li><a href="/lk/upload.php" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-plus-square"></i></span><span class="mm-label"><b>Загрузка фотографий</b></span></a></li><li><a href="/lk/history.php" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-images"></i></span><span class="mm-label">Журнал</span></a></li><li><a href="/lk/konkurs.php" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-compass"></i></span><span class="mm-label">Конкурс</span></a></li><li><a href="/lk/vehicles.php" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-folder-plus"></i></span><span class="mm-label"><b>Правка БД</b></span></a></li><li><a href="/lk/ticket.php" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-question-circle"></i></span><span class="mm-label">Мои заявки</span></a></li><li><a href="/lk/profile.php" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-cog"></i></span><span class="mm-label">Настройки профиля</span></a></li><li><a href="/lk/pm.php" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-comments"></i></span><span class="mm-label">Личные сообщения</span></a></li><li><a href="/search.php?aid=547" class="mm-item"><span class="mm-icon"><i class="far fa-sm fa-fw fa-images"></i></span><span class="mm-label">Мои фотографии</span></a></li><li><a href="/favorites/" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-star"></i></span><span class="mm-label">Избранные снимки</span></a></li><li><a href="/logout.php" class="mm-item"><span class="mm-icon"><i class="fas fa-sm fa-fw fa-sign-out-alt"></i></span><span class="mm-label">Выход</span></a></li></ul></div></li><li class="mm-lang mm-wide"><a href="#" onclick="return false" class="mm-item"><span class="mm-icon"><img src="/img/arrow.png?1" class="arrow"></span><span class="mm-label">Русский</span><span class="mm-right-icon"><img src="/img/r/1.gif"></span></a><div><ul class="mm-level-2"><li><a href="/set.php?l=ru" class="mm-item"><span class="mm-icon"><img src="/img/r/1.gif"></span><span class="mm-label">Русский</span></a></li><li><a href="/set.php?l=en" class="mm-item"><span class="mm-icon"><img src="/img/r/47.gif"></span><span class="mm-label">English</span></a></li></ul></div></li></ul>
+</td></tr>
+<tr><td class="main">
+<table id="idx-main">
+<tr>
+<td id="idx-column-left">
+	<h4><a href="top30.php">Популярные фото</a></h4>
+	<div>
+		<a href="/photo/62182/?top=1" target="_blank" class="prw pop-prw" title="ЭП2Д-0288 (Частные перевозчики)"><img src="/photo/00/62/18/62182_s.jpg" alt="ЭП2Д-0288 (Частные перевозчики)"><div class="hpshade"><div class="com-icon">3</div><div class="eye-icon">+531</div></div></a><div class="ix-popular-spacer"></div><a href="/photo/61975/?top=1" target="_blank" class="prw pop-prw" title="Белорусская железная дорога &mdash; Станции; Фотозарисовки"><img src="/photo/00/61/97/61975_s.jpg" alt="Белорусская железная дорога &mdash; Станции; Фотозарисовки"><div class="hpshade"><div class="com-icon">2</div><div class="eye-icon">+399</div></div></a><div class="ix-popular-spacer"></div><a href="/photo/62293/?top=1" target="_blank" class="prw pop-prw" title="ТЭМ19-001 (Свердловская железная дорога)"><img src="/photo/00/62/29/62293_s.jpg" alt="ТЭМ19-001 (Свердловская железная дорога)"><div class="hpshade"><div class="com-icon">2</div><div class="eye-icon">+261</div></div></a><div class="ix-popular-spacer"></div><a href="/photo/61979/?top=1" target="_blank" class="prw pop-prw" title="ЧС6-028 (Октябрьская железная дорога)"><img src="/photo/00/61/97/61979_s.jpg" alt="ЧС6-028 (Октябрьская железная дорога)"><div class="hpshade"><div class="com-icon">1</div><div class="eye-icon">+182</div></div><div class="temp" style="background-image:url('/img/cond.png')"></div></a><div class="ix-popular-spacer"></div><a href="/photo/62267/?top=1" target="_blank" class="prw pop-prw" title="ЭП2К-251 (Московская железная дорога); ЧС7-317 (Московская железная дорога)"><img src="/photo/00/62/26/62267_s.jpg" alt="ЭП2К-251 (Московская железная дорога); ЧС7-317 (Московская железная дорога)"><div class="hpshade"><div class="com-icon">1</div><div class="eye-icon">+180</div></div></a><div class="ix-popular-spacer"></div><a href="/photo/62315/?top=1" target="_blank" class="prw pop-prw" title="ЭТ2М-131 (Октябрьская железная дорога)"><img src="/photo/00/62/31/62315_s.jpg" alt="ЭТ2М-131 (Октябрьская железная дорога)"><div class="hpshade"><div class="com-icon">5</div><div class="eye-icon">+162</div></div></a><div class="ix-popular-spacer"></div><a href="/photo/62260/?top=1" target="_blank" class="prw pop-prw" title="ЧС8-048 (Московская железная дорога)"><img src="/photo/00/62/26/62260_s.jpg" alt="ЧС8-048 (Московская железная дорога)"><div class="hpshade"><div class="com-icon">1</div><div class="eye-icon">+155</div></div></a><div class="ix-popular-spacer"></div><a href="/photo/62263/?top=1" target="_blank" class="prw pop-prw" title="ЭГЭ2ТВ-051 (Московская железная дорога)"><img src="/photo/00/62/26/62263_s.jpg" alt="ЭГЭ2ТВ-051 (Московская железная дорога)"><div class="hpshade"><div class="com-icon">1</div><div class="eye-icon">+153</div></div></a><div class="ix-popular-spacer"></div><a href="/photo/62041/?top=1" target="_blank" class="prw pop-prw" title="ЭП2К-507 (Московская железная дорога)"><img src="/photo/00/62/04/62041_s.jpg" alt="ЭП2К-507 (Московская железная дорога)"><div class="hpshade"><div class="com-icon">6</div><div class="eye-icon">+144</div></div><div class="temp" style="background-image:url('/img/cond.png')"></div></a><div class="ix-popular-spacer"></div><a href="/photo/62305/?top=1" target="_blank" class="prw pop-prw" title="ВЛ10У-678 (Московская железная дорога)"><img src="/photo/00/62/30/62305_s.jpg" alt="ВЛ10У-678 (Московская железная дорога)"><div class="hpshade"><div class="com-icon">5</div><div class="eye-icon">+143</div></div></a><div class="ix-popular-spacer"></div>	</div>
+	<div style="margin:10px 0 20px; line-height:1.5">
+		<a href="top30.php?mode=reverse">Наоборот</a><br>
+		<a href="top30.php?mode=commented">Самые комментируемые</a>
+	</div><br>
+
+
+</td>
+<td id="idx-column-center">
+
+	<div id="morerand">
+		<a id="newrand" style="display:none" href="#">Показать другие</a>
+		<span id="newrand-loader" style="color:#888">Загрузка...</span>
+	</div>
+	<h4><a href="/photo/" target="_blank">Случайные фотографии</a></h4>
+	<div id="random-photos" class="ix-photos ix-photos-oneline"></div>
+
+
+	
+	<div style="clear:both"></div>
+
+
+	<h4 style="margin-bottom:5px"><a href="/vsearch.php">Поиск подвижного состава</a></h4>
+		<div style="display:flex; max-width:600px"><input type="search" id="ix-qs-num" class="narrow" style="width:50px; flex-grow:1; height:27px; font-size:17px; padding-left:5px" placeholder="Серия и номер"><input type="text" id="ix-qs-cname" class="narrow" style="width:50px; flex-grow:2; height:27px; font-size:17px; margin:0 -1px; padding-left:5px" value="" placeholder="Фильтр по дороге"><input type="button" id="searchbtn" style="padding-left:20px; padding-right:20px; height:27px" value="Найти"></div>
+	<div id="ix-qs-filter-cids" style="margin-top:3px; min-width:200px; max-width:600px">
+		</div>
+	<div class="nw"><input type="checkbox" name="exact" id="exact"> <label for="exact">точное соответствие</label></div>
+
+	<div style="position:relative; z-index:10"><div id="cars_list" style="position:absolute; margin-top:5px; background-color:#fff; display:none" class="shadow"></div></div>
+	<br>
+
+
+	<h4><a href="/update.php?time=72">Недавно добавленные фотографии</a></h4>
+	<div id="recent-photos" class="ix-photos ix-photos-multiline" lastpid="0"></div>
+	<div style="text-align:center; margin:10px 0"><input type="button" id="loadmore" class="loader-button" disabled="disabled" value=""></div>
+
+
+	<div class="p20">
+		<a name="countries"></a>
+		<div style="vertical-align:top; column-count:auto; -webkit-column-count:auto; -moz-column-count:auto; column-width:380px; -moz-column-width:380px; -webkit-column-width:380px; column-gap:10px; -webkit-column-gap:10px -moz-column-gap:10px">
+			<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/1.gif" style="position:relative; top:-2px; left:-2px">&ensp;Россия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/230/">АК &quot;Железные дороги Якутии&quot;</a><br>
+<a href="/railway/68/">АО &quot;Ямальская железнодорожная компания&quot;</a><br>
+<a href="/railway/7/">Восточно-Сибирская железная дорога</a><br>
+<a href="/railway/234/">ГУП ДНР &quot;Донецкая железная дорога&quot;</a><br>
+<a href="/railway/235/">ГУП ЛНР &quot;Луганская железная дорога&quot;</a><br>
+<a href="/railway/8/">Горьковская железная дорога</a><br>
+<a href="/railway/9/">Дальневосточная железная дорога</a><br>
+<a href="/railway/10/">Забайкальская железная дорога</a><br>
+<a href="/railway/16/">Западно-Сибирская железная дорога</a><br>
+<a href="/railway/17/">Калининградская железная дорога</a><br>
+<a href="/railway/18/">Красноярская железная дорога</a><br>
+<a href="file:///C:/Users/FREE%20RIDE/OneDrive/Документы/Новая%20папка%20(3)/Крымская%20железная%20дорога%20—%20TrainFoto.html">Крымская железная дорога</a><br>
+<a href="/railway/19/">Куйбышевская железная дорога</a><br>
+<a href="/railway/244/">Мелитопольская железная дорога</a><br>
+<a href="/railway/2/">Московская железная дорога</a><br>
+<a href="/railway/63/">Норильская железная дорога (ПАО &quot;ГМК &quot;Норникель&quot;)</a><br>
+<a href="/railway/3/">Октябрьская железная дорога</a><br>
+<a href="/railway/20/">Приволжская железная дорога</a><br>
+<a href="/railway/21/">Свердловская железная дорога</a><br>
+<a href="/railway/22/">Северная железная дорога</a><br>
+<a href="/railway/23/">Северо-Кавказская железная дорога</a><br>
+<a href="/railway/307/">ФГУП &quot;Железные дороги Новороссии&quot;</a><br>
+<a href="/railway/64/">Частные перевозчики</a><br>
+<a href="/railway/24/">Юго-Восточная железная дорога</a><br>
+<a href="/railway/25/">Южно-Уральская железная дорога</a><br>
+<a href="/railway/67/"><i>Россия, прочее</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/0.gif" style="position:relative; top:-2px; left:-2px">&ensp;(Страна не выбрана)</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/0/"><i>(нет)</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/24.gif" style="position:relative; top:-2px; left:-2px">&ensp;Абхазия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/54/">Абхазская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/49.gif" style="position:relative; top:-2px; left:-2px">&ensp;Австралия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/92/">Железные дороги Австралии</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/27.gif" style="position:relative; top:-2px; left:-2px">&ensp;Австрия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/59/">ÖBB - Австрийские федеральные железные дороги</a><br>
+<a href="/railway/225/">Железные дороги Нижней Австрии (NÖVOG)</a><br>
+<a href="/railway/222/">Транспортная компания Stern &amp; Hafferl</a><br>
+<a href="/railway/117/"><i>Австрия, частные перевозчики</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/31.gif" style="position:relative; top:-2px; left:-2px">&ensp;Азербайджан</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/71/">Азербайджанские железные дороги</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/70.gif" style="position:relative; top:-2px; left:-2px">&ensp;Албания</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/128/">Железные дороги Албании</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/80.gif" style="position:relative; top:-2px; left:-2px">&ensp;Алжир</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/136/">Железные дороги Алжира</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/34.gif" style="position:relative; top:-2px; left:-2px">&ensp;Аргентина</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/76/">Железные дороги Аргентины</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/25.gif" style="position:relative; top:-2px; left:-2px">&ensp;Армения</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/52/">Южно-Кавказская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/106.gif" style="position:relative; top:-2px; left:-2px">&ensp;Бангладеш</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/245/">Bangladesh Railway</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/2.gif" style="position:relative; top:-2px; left:-2px">&ensp;Беларусь</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/15/">Белорусская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/53.gif" style="position:relative; top:-2px; left:-2px">&ensp;Бельгия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/97/">Бельгийские железные дороги</a><br>
+<a href="/railway/118/">Бельгия, частные перевозчики</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/39.gif" style="position:relative; top:-2px; left:-2px">&ensp;Болгария</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/84/">Болгарские государственные железные дороги</a><br>
+<a href="/railway/127/"><i>Болгария, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/58.gif" style="position:relative; top:-2px; left:-2px">&ensp;Босния и Герцеговина</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/188/">ŽFBH – Željeznice Federacije Bosne i Hercegovine</a><br>
+<a href="/railway/189/">ŽRS – Željeznice Republike Srpske</a><br>
+<a href="/railway/129/"><i>Босния и Герцеговина, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/107.gif" style="position:relative; top:-2px; left:-2px">&ensp;Ботсвана</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/246/">Botswana Railways</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/64.gif" style="position:relative; top:-2px; left:-2px">&ensp;Бразилия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/158/">Железные дороги Бразилии</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/47.gif" style="position:relative; top:-2px; left:-2px">&ensp;Великобритания</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/100/">Британские железные дороги</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/43.gif" style="position:relative; top:-2px; left:-2px">&ensp;Венгрия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/247/">MÁV-HÉV Helyiérdekű Vasút</a><br>
+<a href="/railway/46/">MÁV-START</a><br>
+<a href="/railway/88/">MÁV-TRAKCIÓ</a><br>
+<a href="/railway/95/"><i>Győr-Sopron-Ebenfurti Vasút</i></a><br>
+<a href="/railway/238/"><i>Magyar Államvasutak</i></a><br>
+<a href="/railway/47/"><i>Венгрия, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/84.gif" style="position:relative; top:-2px; left:-2px">&ensp;Вьетнам</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/144/">Железные дороги Вьетнама</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/72.gif" style="position:relative; top:-2px; left:-2px">&ensp;ГДР</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/219/"><i>DR - Deutsche Reichsbahn (DDR)</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/108.gif" style="position:relative; top:-2px; left:-2px">&ensp;Габон</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/248/">Trans-Gabon Railway</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/93.gif" style="position:relative; top:-2px; left:-2px">&ensp;Гвинейская Республика</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/163/">Боксито-глиноземный комплекс Friguia</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/15.gif" style="position:relative; top:-2px; left:-2px">&ensp;Германия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/236/">DB - Deutsche Bundesbahn</a><br>
+<a href="/railway/34/">DB Cargo</a><br>
+<a href="/railway/31/">DB Fernverkehr</a><br>
+<a href="/railway/32/">DB Regio</a><br>
+<a href="/railway/51/"><i>Германия, прочее</i></a><br>
+<a href="/railway/38/"><i>Германия, частные перевозчики</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/71.gif" style="position:relative; top:-2px; left:-2px">&ensp;Греция</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/131/">Железные дороги Греции</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/32.gif" style="position:relative; top:-2px; left:-2px">&ensp;Грузия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/73/">Грузинская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/65.gif" style="position:relative; top:-2px; left:-2px">&ensp;Дания</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/109/">Железные дороги Дании</a><br>
+<a href="/railway/141/"><i>Дания, частные перевозчики</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/112.gif" style="position:relative; top:-2px; left:-2px">&ensp;Доминиканская Республика</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/252/"><i>United Dominican Railways</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/91.gif" style="position:relative; top:-2px; left:-2px">&ensp;Египет</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/253/">Egyptian National Railways</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/114.gif" style="position:relative; top:-2px; left:-2px">&ensp;Зимбабве</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/255/">Национальные железные дороги Зимбабве</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/33.gif" style="position:relative; top:-2px; left:-2px">&ensp;Израиль</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/75/">Израильские железные дороги</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/69.gif" style="position:relative; top:-2px; left:-2px">&ensp;Индия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/121/">Железные дороги Индии</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/115.gif" style="position:relative; top:-2px; left:-2px">&ensp;Индонезия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/256/">Индонезийские железные дороги</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/90.gif" style="position:relative; top:-2px; left:-2px">&ensp;Иордания</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/162/">Хиджазская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/82.gif" style="position:relative; top:-2px; left:-2px">&ensp;Ирак</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/139/">Железные дороги Ирака</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/68.gif" style="position:relative; top:-2px; left:-2px">&ensp;Иран</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/120/">Железные дороги Ирана</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/95.gif" style="position:relative; top:-2px; left:-2px">&ensp;Ирландия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/227/">Irish Rail</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/54.gif" style="position:relative; top:-2px; left:-2px">&ensp;Испания</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/98/">RENFE</a><br>
+<a href="/railway/99/"><i>Испания, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/37.gif" style="position:relative; top:-2px; left:-2px">&ensp;Италия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/258/">Mercitalia Rail</a><br>
+<a href="/railway/259/">Trenitalia S.p.A.</a><br>
+<a href="/railway/260/"><i>Ferrovie dello Stato</i></a><br>
+<a href="/railway/79/"><i>Италия, прочие</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/85.gif" style="position:relative; top:-2px; left:-2px">&ensp;КНДР</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/145/">Железные дороги КНДР</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/3.gif" style="position:relative; top:-2px; left:-2px">&ensp;Казахстан</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/26/">Казахстанские железные дороги</a><br>
+<a href="/railway/305/">Степногорская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/116.gif" style="position:relative; top:-2px; left:-2px">&ensp;Камбоджа</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/261/">Royal Cambodian Railways</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/60.gif" style="position:relative; top:-2px; left:-2px">&ensp;Канада</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/104/">Canadian National Railway</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/61.gif" style="position:relative; top:-2px; left:-2px">&ensp;Китай</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/102/">Железные дороги Китая</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/87.gif" style="position:relative; top:-2px; left:-2px">&ensp;Косово</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/156/">Железные дороги Косово</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/41.gif" style="position:relative; top:-2px; left:-2px">&ensp;Куба</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/86/">Железные дороги Кубы</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/12.gif" style="position:relative; top:-2px; left:-2px">&ensp;Кыргызстан</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/27/">Кыргызская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/17.gif" style="position:relative; top:-2px; left:-2px">&ensp;Латвия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/37/">Латвийская железная дорога</a><br>
+<a href="/railway/107/">Частные перевозчики</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/120.gif" style="position:relative; top:-2px; left:-2px">&ensp;Ливан</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/269/">Lebanese railways</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/30.gif" style="position:relative; top:-2px; left:-2px">&ensp;Ливия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/66/">Железная дорога Ливии</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/21.gif" style="position:relative; top:-2px; left:-2px">&ensp;Литва</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/45/">Литовская железная дорога</a><br>
+<a href="/railway/170/"><i>Литва, частные перевозчики</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/51.gif" style="position:relative; top:-2px; left:-2px">&ensp;Люксембург</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/270/">CFL Cargo</a><br>
+<a href="/railway/94/">Железные дороги Люксембурга</a><br>
+<a href="/railway/140/"><i>Люксембург, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/121.gif" style="position:relative; top:-2px; left:-2px">&ensp;Мавритания</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/271/">Mauritania Railway</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/123.gif" style="position:relative; top:-2px; left:-2px">&ensp;Малайзия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/273/">Malayan Railways Limited</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/125.gif" style="position:relative; top:-2px; left:-2px">&ensp;Мексика</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/275/">Ferromex</a><br>
+<a href="/railway/276/">Ferrosur</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/126.gif" style="position:relative; top:-2px; left:-2px">&ensp;Мозамбик</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/279/">Mozambique Ports and Railways</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/20.gif" style="position:relative; top:-2px; left:-2px">&ensp;Молдавия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/44/">Железная дорога Молдавии</a><br>
+<a href="/railway/113/"><i>Приднестровская железная дорога</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/29.gif" style="position:relative; top:-2px; left:-2px">&ensp;Монголия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/61/">Улан-Баторская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/127.gif" style="position:relative; top:-2px; left:-2px">&ensp;Мьянма</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/280/">Железные дороги Мьянмы</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/101.gif" style="position:relative; top:-2px; left:-2px">&ensp;Намибия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/224/">TransNamib</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/128.gif" style="position:relative; top:-2px; left:-2px">&ensp;Непал</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/281/">Nepal Railway Company Ltd.</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/129.gif" style="position:relative; top:-2px; left:-2px">&ensp;Нигерия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/282/">Nigerian Railway Corporation</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/22.gif" style="position:relative; top:-2px; left:-2px">&ensp;Нидерланды</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/50/">Dutch Railways (NS)</a><br>
+<a href="/railway/119/"><i>Нидерланды, частные перевозчики</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/88.gif" style="position:relative; top:-2px; left:-2px">&ensp;Новая Зеландия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/159/">Железные дороги Новой Зеландии</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/16.gif" style="position:relative; top:-2px; left:-2px">&ensp;Норвегия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/312/">Норвегия, другие компании</a><br>
+<a href="/railway/36/">Норвежские государственные железные дороги</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/89.gif" style="position:relative; top:-2px; left:-2px">&ensp;Объединённые Арабские Эмираты</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/161/">Etihad Rail</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/104.gif" style="position:relative; top:-2px; left:-2px">&ensp;Пакистан</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/283/">Pakistan Railways</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/96.gif" style="position:relative; top:-2px; left:-2px">&ensp;Панама</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/218/">Ferrocarril de Panamá</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/100.gif" style="position:relative; top:-2px; left:-2px">&ensp;Перу</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/226/">Железные дороги Перу</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/19.gif" style="position:relative; top:-2px; left:-2px">&ensp;Польша</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/82/">PKP Cargo</a><br>
+<a href="/railway/81/">PKP Intercity</a><br>
+<a href="/railway/80/">PolRegio</a><br>
+<a href="/railway/155/">Польские государственные железные дороги (PKP)</a><br>
+<a href="/railway/264/"><i>SKPL-Stowarzyszenie Kolejowych Przewozów Lokalnych</i></a><br>
+<a href="/railway/40/"><i>Польша, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/55.gif" style="position:relative; top:-2px; left:-2px">&ensp;Португалия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/267/">Comboios de Portugal (CP)</a><br>
+<a href="/railway/284/">MEDWAY (CP cargo)</a><br>
+<a href="/railway/101/"><i>Португалия, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/40.gif" style="position:relative; top:-2px; left:-2px">&ensp;Румыния</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/124/">CFR Călători</a><br>
+<a href="/railway/125/">CFR Marfă</a><br>
+<a href="/railway/240/"><i>Căile Ferate Române</i></a><br>
+<a href="/railway/85/"><i>Румыния, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/10.gif" style="position:relative; top:-2px; left:-2px">&ensp;СССР</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/160/">Байкало-Амурская магистраль</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/38.gif" style="position:relative; top:-2px; left:-2px">&ensp;США</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/83/">Железные дороги США</a><br>
+<a href="/railway/142/"><i>США, прочее</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/130.gif" style="position:relative; top:-2px; left:-2px">&ensp;Сальвадор</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/285/">Ferrocarriles Nacionales de El Salvador</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/131.gif" style="position:relative; top:-2px; left:-2px">&ensp;Саудовская Аравия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/286/">Saudi Railways Organization</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/59.gif" style="position:relative; top:-2px; left:-2px">&ensp;Северная Македония</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/132/">Железные дороги Македонии</a><br>
+<a href="/railway/193/"><i>MŽ – Makedonski železnici</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/132.gif" style="position:relative; top:-2px; left:-2px">&ensp;Сенегал</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/287/">National Railway Company of Senegal</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/44.gif" style="position:relative; top:-2px; left:-2px">&ensp;Сербия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/185/">Srbija Kargo</a><br>
+<a href="/railway/186/">Srbija Voz</a><br>
+<a href="/railway/90/"><i>ŽS – Železnice Srbije</i></a><br>
+<a href="/railway/187/"><i>Сербия, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/62.gif" style="position:relative; top:-2px; left:-2px">&ensp;Сирия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/133/">Железные дороги Сирии</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/42.gif" style="position:relative; top:-2px; left:-2px">&ensp;Словакия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/87/">Železničná spoločnosť Cargo Slovakia</a><br>
+<a href="/railway/72/">Železničná spoločnosť Slovensko</a><br>
+<a href="/railway/30/"><i>Словакия, прочие компании</i></a><br>
+<a href="/railway/242/"><i>Словацкие железные дороги</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/56.gif" style="position:relative; top:-2px; left:-2px">&ensp;Словения</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/112/">Slovenske železnice d.o.o.</a><br>
+<a href="/railway/183/"><i>SŽ – Slovenske železnice</i></a><br>
+<a href="/railway/184/"><i>Словения, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/36.gif" style="position:relative; top:-2px; left:-2px">&ensp;Таджикистан</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/78/">Таджикская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/63.gif" style="position:relative; top:-2px; left:-2px">&ensp;Таиланд</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/103/">Железные дороги Таиланда</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/99.gif" style="position:relative; top:-2px; left:-2px">&ensp;Тайвань</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/289/">Taiwan Railways Administration</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/135.gif" style="position:relative; top:-2px; left:-2px">&ensp;Того</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/291/">Togo Rail</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/86.gif" style="position:relative; top:-2px; left:-2px">&ensp;Тунис</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/146/">Железные дороги Туниса</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/35.gif" style="position:relative; top:-2px; left:-2px">&ensp;Туркменистан</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/77/">Туркменские железные дороги</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/52.gif" style="position:relative; top:-2px; left:-2px">&ensp;Турция</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/292/">TCDD Taşımacılık</a><br>
+<a href="/railway/96/">Железные дороги Турции</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/28.gif" style="position:relative; top:-2px; left:-2px">&ensp;Узбекистан</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/60/">Узбекская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/4.gif" style="position:relative; top:-2px; left:-2px">&ensp;Украина</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/220/">Ассоциация сохранения истории жел.-дорог Украины</a><br>
+<a href="/railway/1/">Донецкая железная дорога</a><br>
+<a href="/railway/233/">КП &quot;Киевпастранс&quot;</a><br>
+<a href="/railway/13/">Львовская железная дорога</a><br>
+<a href="/railway/14/">Одесская железная дорога</a><br>
+<a href="/railway/5/">Приднепровская железная дорога</a><br>
+<a href="/railway/165/">Украина, прочее</a><br>
+<a href="/railway/70/">Украинская железнодорожная скоростная компания</a><br>
+<a href="/railway/309/">Филиал &quot;Пригородная пассажирская компания&quot;</a><br>
+<a href="/railway/232/">ЧАО &quot;Киев-Днепровское МППЖТ&quot;</a><br>
+<a href="/railway/11/">Юго-Западная железная дорога</a><br>
+<a href="/railway/12/">Южная железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/74.gif" style="position:relative; top:-2px; left:-2px">&ensp;Уругвай</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/135/">Железные дороги Уругвая</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/136.gif" style="position:relative; top:-2px; left:-2px">&ensp;Филиппины</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/293/">Железные дороги Филиппин</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/14.gif" style="position:relative; top:-2px; left:-2px">&ensp;Финляндия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/28/">Железные дороги Финляндии</a><br>
+<a href="/railway/122/">Частные перевозчики</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/23.gif" style="position:relative; top:-2px; left:-2px">&ensp;Франция</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/65/">SNCF - French National Railway Corporation</a><br>
+<a href="/railway/134/"><i>Франция, частные компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/57.gif" style="position:relative; top:-2px; left:-2px">&ensp;Хорватия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/180/">HŽ Cargo</a><br>
+<a href="/railway/181/">HŽ Infrastruktura</a><br>
+<a href="/railway/179/">HŽ Putnički prijevoz</a><br>
+<a href="/railway/111/"><i>HŽ Vuča vlakova</i></a><br>
+<a href="/railway/176/"><i>HŽ – Hrvatske željeznice</i></a><br>
+<a href="/railway/182/"><i>Хорватия, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/45.gif" style="position:relative; top:-2px; left:-2px">&ensp;Черногория</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/265/">Железные дороги Черногории</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/18.gif" style="position:relative; top:-2px; left:-2px">&ensp;Чехия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/41/">ČD Cargo</a><br>
+<a href="/railway/39/">České dráhy</a><br>
+<a href="/railway/42/"><i>Severočeské Doly - Kolejová doprava</i></a><br>
+<a href="/railway/43/"><i>Чехия, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/11.gif" style="position:relative; top:-2px; left:-2px">&ensp;Чехословакия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/237/">ČSD - Československé státní dráhy (1945 - 1993)</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/46.gif" style="position:relative; top:-2px; left:-2px">&ensp;Швейцария</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/223/">Aare Seeland mobil (ASm)</a><br>
+<a href="/railway/221/">Appenzeller Bahnen (AB)</a><br>
+<a href="/railway/228/">Regionalverkehr Bern–Solothurn (RBS)</a><br>
+<a href="/railway/200/">Rhätische Bahn (RhB)</a><br>
+<a href="/railway/116/">SBB Cargo</a><br>
+<a href="/railway/114/">SBB Swiss Federal Railways (SBB-CFF-FFS)</a><br>
+<a href="/railway/212/"><i>Aargau Verkehr (AVA)</i></a><br>
+<a href="/railway/138/"><i>BLS AG (Bern–Lötschberg–Simplon)</i></a><br>
+<a href="/railway/137/"><i>BLS Cargo AG</i></a><br>
+<a href="/railway/199/"><i>Chemins de fer du Jura (CJ)</i></a><br>
+<a href="/railway/205/"><i>Ferrovie Autolinee Regionali Ticinesi (FART)</i></a><br>
+<a href="/railway/215/"><i>Gornergrat Bahn (GGB)</i></a><br>
+<a href="/railway/201/"><i>Jungfraubahnen (JBH)</i></a><br>
+<a href="/railway/211/"><i>Lausanne − Échallens − Bercher (LEB)</i></a><br>
+<a href="/railway/213/"><i>Matterhorn-Gotthard Bahn (MGB)</i></a><br>
+<a href="/railway/206/"><i>Montreux Oberland bernois (MOB)</i></a><br>
+<a href="/railway/210/"><i>Nyon-Saint-Cergue-Morez (NStCM)</i></a><br>
+<a href="/railway/214/"><i>Pilatus Bahn (PB)</i></a><br>
+<a href="/railway/204/"><i>Rigi Bahnen (RB)</i></a><br>
+<a href="/railway/203/"><i>Südostbahn (SOB)</i></a><br>
+<a href="/railway/207/"><i>Transports Montreux-Vevey-Riviera (MVR)</i></a><br>
+<a href="/railway/197/"><i>Transports Morges–Bière–Cossonay (MBC)</i></a><br>
+<a href="/railway/196/"><i>Transports de Martigny et Régions (TMR)</i></a><br>
+<a href="/railway/202/"><i>Transports publics du Chablais (TPC)</i></a><br>
+<a href="/railway/208/"><i>Transports publics fribourgeois (TPF)</i></a><br>
+<a href="/railway/209/"><i>Transports publics neuchâtelois (TransN)</i></a><br>
+<a href="/railway/198/"><i>Travys (TVYS)</i></a><br>
+<a href="/railway/217/"><i>Zentralbahn AG (ZB)</i></a><br>
+<a href="/railway/91/"><i>Швейцария, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/50.gif" style="position:relative; top:-2px; left:-2px">&ensp;Швеция</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/93/">SJ - Statens Järnvägar</a><br>
+<a href="/railway/123/"><i>Швеция, прочие компании</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/83.gif" style="position:relative; top:-2px; left:-2px">&ensp;Шри-Ланка</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/143/">Железные дороги Шри-Ланки</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/138.gif" style="position:relative; top:-2px; left:-2px">&ensp;Эквадор</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/296/">Ecuadorian Railways Company</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/13.gif" style="position:relative; top:-2px; left:-2px">&ensp;Эстония</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/56/">Edelaraudtee</a><br>
+<a href="/railway/57/">Elron</a><br>
+<a href="/railway/108/">Эстония, частные перевозчики</a><br>
+<a href="/railway/58/">Эстонская железная дорога</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/94.gif" style="position:relative; top:-2px; left:-2px">&ensp;Югославия</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/177/">JŽ – Jugoslavenske željeznice</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/140.gif" style="position:relative; top:-2px; left:-2px">&ensp;Южная Африка (ЮАР)</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/298/">Passenger Rail Agency of South Africa</a><br>
+<a href="/railway/299/">Transnet Freight Rail</a><br>
+<a href="/railway/300/"><i>South African Railways</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/92.gif" style="position:relative; top:-2px; left:-2px">&ensp;Южная Корея</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/301/">Korea Railroad Corporation (Korail)</a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/48.gif" style="position:relative; top:-2px; left:-2px">&ensp;Япония</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/115/">JR Freight</a><br>
+<a href="/railway/302/">JR Group</a><br>
+<a href="/railway/303/"><i>Japanese Government Railways</i></a><br>
+<a href="/railway/304/"><i>Japanese National Railways (Kokutetsu)</i></a><br>
+<a href="/railway/257/"><i>Япония, прочие</i></a><br>
+	</div>
+</div><br>
+<div style="display:inline-block">
+	<h4 style="margin:0"><img src="/img/r/26.gif" style="position:relative; top:-2px; left:-2px">&ensp;Прочее</h4>
+	<div style="padding:3px 5px 20px 27px">
+<a href="/railway/74/">Прочее</a><br>
+	</div>
+</div><br>
+		</div>
+	</div>
+
+
+</td>
+<td id="idx-column-right">
+<h4><a href="voting.php" style="color:#e00">Фотоконкурс&nbsp;<span class="notify-count" style="position:relative; top:-2px; left:2px">Сегодня!</span></a></h4>
+<a href="/photo/62099/?top=1" target="_blank" class="prw pop-prw"><img src="/photo/00/62/09/62099_s.jpg"><div class="hpshade">2-е место <img src="/img/vs2.png" style="position:relative; top:-2px; left:2px"></div></a><br><br>
+<h4>Новости сайта</h4>
+<div class="regular-sm" style="margin-bottom:25px; line-height:16px">
+<div style="margin-bottom:15px"><b>21.02.2025</b>: <span class="break-links">Уважаемые пользователи. Доводим до вашего сведения что в случае выявления накрутки голосов для прохождения на конкурс либо при участии в конкурсе фото будет дисквалифицировано и удалено с сайта!</div>
+<div style="margin-bottom:15px"><b>18.02.2025</b>: <span class="break-links">Уважаемые пользователи. 
+По многочисленным просьбам создана беседа в Telegramm для пользователей сайта
+<a href="https://t.me/trainfotos" target="_blank">https://t.me/trainfotos</a></div>
+<div style="margin-bottom:15px"><b>10.01.2025</b>: <span class="break-links">Уважаемые пользователи:
+При загрузке фото из Российской Федерации, кроме республик где присутствует местный язык, убедительная просьба не заполнять графу &quot;МС на местном языке&quot;</div>
+</div>
+<h4>Сейчас на сайте (20)</h4><div><a href="/author/2524/">Tumyr_Railway</a>, <a href="/author/1508/">Artem Maloshenkov</a>, <a href="/author/670/">Максим Сёмин</a>, <a href="/author/3511/">electrichkus_prod</a>, <a href="/author/1747/">Spott44</a>, <a href="/author/3131/">MelnikSpott</a>, <a href="/author/2129/">grigoriystyazhkin</a>, <a href="/author/3066/">relvan</a>, <a href="/author/1280/">Eisenengel</a>, <a href="/author/3473/">Nekto</a>, <a href="/author/1461/">Роман А.</a>, <a href="/author/547/">Railway</a>, <a href="/author/1979/">MPLovskiy_10064</a>, <a href="/author/1729/">SEVA_yTo4kA</a>, <a href="/author/2560/">Kilkawqq</a>, <a href="/author/788/">Dag05</a>, <a href="/author/1822/">Sviat</a>, <a href="/author/2153/">ЭР2Р-7054</a>, <a href="/author/1465/">Антон Низамутдинов</a>, <a href="/author/1307/">Pyacegor1ck</a></div><br></td>
+</tr></table></td></tr>
+<tr><td class="footer"><b><a href="/lk/">Личный кабинет</a> &nbsp; &nbsp; <a href="/rules/">Правила</a> &nbsp; &nbsp; <a href="/admin.php">Редколлегия</a></b><br>
+<a href="/set.php?pcver=0">Мобильная версия</a><br>
+<a href="/set.php?dark=0" style="display:inline-block; padding:1px 10px; margin-top:5px; background-color:#ddd; color:#333">Светлая тема</a>
+<div class="sitecopy">&copy; Администрация TrainFoto и авторы материалов, 2022—2025<br>Использование фотографий и иных материалов, опубликованных на сайте, допускается только с разрешения их авторов и обязательным указанием ссылки на сайт.</div>
+<div style="margin:15px 0">
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=88216032&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/88216032/3_0_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="88216032" data-lang="ru" /></a>
+<!-- /Yandex.Metrika informer -->
+</div>
+</td></tr>
+</table>
+
+<div style="display:none;" class="nav_up" id="nav_up"></div>
+<div style="display:none;" class="nav_down" id="nav_down"></div>
+
+</body>
+</html>
